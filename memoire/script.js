@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
     console.log(Math.min(document.documentElement.clientWidth || 0, window.innerWidth || 0));
     if (window.innerWidth < 1600 || window.innerHeight<800) {
-        alert('This website is made for desktop, full-screen mode. \n If the the title text is cut, please unzoom your browser.');
+        alert('This website is made for desktop, full-screen mode. \n Please unzoom your browser.');
     }
     setParagraphsHeights();
     setCites();
